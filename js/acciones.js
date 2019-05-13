@@ -4,7 +4,7 @@ $(document).ready(function (e) {
 	document.addEventListener("deviceready",function(){
 		
 $('#izquierda').on("swipeleft",function(){
-	navigator.notification.alert("Desllizo a la izquierda",function(){"Aplicacion ","Aceptar"});
+	navigator.notification.alert("Deslizó a la izquierda",function(){"Aplicacion ","Aceptar"});
 	});
 	
 	$('#derecha').on("swiperight",function(){
@@ -12,7 +12,7 @@ $('#izquierda').on("swipeleft",function(){
 			switch(opt)
 			{
 				case 1:
-				navigator.notification.beep(1);
+				navigator.notification.beep(2);
 				break;
 				
 				case 2:
